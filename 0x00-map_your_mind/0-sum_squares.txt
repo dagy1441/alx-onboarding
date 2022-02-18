@@ -1,0 +1,24 @@
+Solution
+! -------------------------------------------------------
+! Calculate the sum of squares of given input of numbers
+! -------------------------------------------------------
+
+PROGRAM  The sum of squares
+   
+   INTEGER  :: input_number, sum, index
+
+   WRITE " give your number"
+
+   READ(*)  input_number,
+
+   sum <-- 0
+
+   FOR index <-- 1 to input_number
+	Begin
+	   sum <-- sum + squar(index)
+           index <-- index + 1
+ 	End
+  WRITE " the sum of squares of given input of numbers "+sum
+
+
+END PROGRAM  The sum of squares
