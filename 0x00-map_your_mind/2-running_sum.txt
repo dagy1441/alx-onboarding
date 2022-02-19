@@ -1,0 +1,25 @@
+Solution
+! -------------------------------------------------------
+! Calculate a running sum
+! -------------------------------------------------------
+
+PROGRAM  Calculate a running sum
+   
+   NUMBER:: input_number, sum, loopcounter, arr 
+
+   WRITE " give your number"
+
+   READ(*)  input_number,
+
+Set arr to size 10
+FOR loopcounter <-- 0 TO (size of arr)-1
+	arr[loopcounter] = input_number
+	IF (arr[loopcounter] < 0) THEN 
+   		sum <-- sum + arr[loopcounter]
+		loopcounter <-- loopcounter +1
+	ENDIF
+	
+ENDFOR
+	WRITE " running sum: "+sum
+
+END PROGRAM  The sum of squares

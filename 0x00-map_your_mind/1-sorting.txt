@@ -5,16 +5,16 @@ Solution
 
 PROGRAM  The sorted order
    
-   INTEGER  :: number_1, number_2,number_3, max, index
+   NUMBER:: number_1, number_2,number_3, max
 
-   WRITE "give your number"
+   WRITE "give three numbers"
 
    READ(*,*,*)  number_1, number_2,number_3
    
    WRITE "Unsorted  number"
-   WRITE "number_1"
-   WRITE "number_2"
-   WRITE "number_3"
+   WRITE number_1
+   WRITE number_2
+   WRITE number_3
 
    WRITE "Sorted  number"
    
