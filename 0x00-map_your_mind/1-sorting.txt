@@ -1,0 +1,38 @@
+Solution
+! -------------------------------------------------------
+! reads in three numbers and writes them all in sorted order
+! -------------------------------------------------------
+
+PROGRAM  The sorted order
+   
+   INTEGER  :: number_1, number_2,number_3, max, index
+
+   WRITE "give your number"
+
+   READ(*,*,*)  number_1, number_2,number_3
+   
+   WRITE "Unsorted  number"
+   WRITE "number_1"
+   WRITE "number_2"
+   WRITE "number_3"
+
+   WRITE "Sorted  number"
+   
+  	IF (number_1  > number_2) THEN 
+   		max <-- number_2
+   		number_2 <-- number_1
+		number_1 <--max
+	END
+	IF (number_2  > number_3) THEN 
+   		max <-- number_3
+   		number_3 <-- number_2
+		number_2 <-- max
+	END
+	IF (number_1  > number_2) THEN 
+   		max <-- number_2
+   		number_2 <-- number_1
+		number_1 <-- max
+	END
+	WRITE "In ascending order " + number_1 + number_2 + number_3 
+   
+ END PROGRAM  The sum of squares
