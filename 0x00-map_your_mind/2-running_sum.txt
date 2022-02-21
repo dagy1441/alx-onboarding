@@ -22,4 +22,4 @@ FOR loopcounter <-- 0 TO (size of arr)-1
 ENDFOR
 	WRITE " running sum: "+sum
 
-END PROGRAM  The sum of squares
+END PROGRAM  The running sum
