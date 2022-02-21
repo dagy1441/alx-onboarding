@@ -28,9 +28,9 @@ PROGRAM  The sorted order
    		number_3 <-- number_2
 		number_2 <-- max
 	END
-	IF (number_1  > number_2) THEN 
-   		max <-- number_2
-   		number_2 <-- number_1
+	IF (number_1  > number_3) THEN 
+   		max <-- number_3
+   		number_3 <-- number_1
 		number_1 <-- max
 	END
 	WRITE "In ascending order " + number_1 + number_2 + number_3 
